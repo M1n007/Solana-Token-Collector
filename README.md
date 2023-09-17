@@ -2,6 +2,10 @@
 
 The Solana token collector functions to gather tokens into a single account.
 
+# privateKey.txt
+
+Fill privateKey.txt with your list privateKey
+
 ## ENV
 
 ```bash
