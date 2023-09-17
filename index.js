@@ -175,9 +175,7 @@ const getBalances = async (address) => {
                     const element = resultAllToken[index];
                     const dataReal = newPayload[index];
                     if (element.result.value.length > 0) {
-                        console.log(element.result.value[0].account)
                         if (element.result.value[0].account.data.parsed.info.tokenAmount.uiAmount > 0) {
-                            console.log(element.result.value[0].account.data)
                             console.log(`Address : ${dataReal.address}`);
                             console.log(`$${tokenSymbol} Found : ${element.result.value[0].account.data.parsed.info.tokenAmount.uiAmount}`)
                             console.log(`Try sending fee....`)
